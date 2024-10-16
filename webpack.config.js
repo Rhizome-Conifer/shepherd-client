@@ -1,6 +1,9 @@
-const path = require('path');
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-module.exports = {
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+ export default {
   mode: 'production',
   entry: './index.js',
   devtool: 'inline-source-map',
@@ -9,4 +12,4 @@ module.exports = {
     filename: 'shepherd-client.bundle.js',
     libraryTarget: 'window'
   }
-};
+}

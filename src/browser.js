@@ -1,7 +1,5 @@
-import 'unfetch/polyfill/index';
-import RFB from '@novnc/novnc/core/rfb';
-import Promise from 'promise-polyfill';
-import MediaController from "./media-controller";
+import RFB from '@novnc/novnc/core/rfb.js';
+import MediaController from "./media-controller.js";
 
 
 function toQueryString(obj) {

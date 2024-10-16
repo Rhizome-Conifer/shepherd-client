@@ -1,4 +1,4 @@
-import CBrowser from './src/browser'
+import CBrowser from './src/browser.js'
 
 export function InitBrowserDefault(reqid, opts) {
   document.addEventListener("readystatechange", function() {

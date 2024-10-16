@@ -1,5 +1,5 @@
-import {determineVideoFormats, WebRTC} from "./webrtc";
-import {getBestAudioType, MSAudio} from "./audio-mediasource";
+import {determineVideoFormats, WebRTC} from "./webrtc.js";
+import {getBestAudioType, MSAudio} from "./audio-mediasource.js";
 
 export {MediaController};
 
